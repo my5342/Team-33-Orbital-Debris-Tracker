@@ -1,0 +1,6 @@
+1/26/2022, Grant Mays.
+- Working on RF board layout changes for respin. 
+- Moved to 4 layer design.
+- added connectors.
+- Selected new inductor for the duplexer with appropriate SRF.
+- Intend to finish layout changes this week to send board out for fabrication.
