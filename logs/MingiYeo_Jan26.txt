@@ -1,0 +1,4 @@
+1/26/2022
+- the code for the micro controller and the ground station is working as intended.
+	- no changes will be required until integration.
+- starting to work on the radio trasmitter and reciever to send "particle.txt" files

@@ -1,0 +1,8 @@
+Power Module:
+- Updated schematics and layout with addition of 14-pin connector
+- Solved all problems from last semester with regards to design not working as expected
+- Solved issues of some pins not being properly connected on schematic + resolved in layout as well (solved: EN/UVLO pin not connected, RST pin always connected)
+
+Current Progress:
+- Submitting layout for PCB fabrication by end of day today (1/26)
+- Ordering components that will be used for PCB assembly once board comes in by 1/27

@@ -1,0 +1,5 @@
+Alex Soudah - Power Supply - February 02/02:
+
+- Fixed all issues on DRC on layout (layout deisng competion confirmed with team, Dr. Lusher, and TA)
+	- Issues were with clearance (55 violations), short-circuit (2), and unrouted nets (3)
+- Will be sending boards out with parts order today
