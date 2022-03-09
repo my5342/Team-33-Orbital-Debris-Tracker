@@ -1,5 +1,0 @@
-Update 2/9 - Alex Soudah (Power Electronics Subsystem):
-- sent in order for PCB and components two days ago
-- Grant helped with diagnosis of old board to see what was wrong with it
-- Looking into solar panel and battery charger that was purchased to plan out how to make all of those connections in case anything is needed
-- Helping Grant and Mingi with whatever they may need help with while I wait on my board to come in

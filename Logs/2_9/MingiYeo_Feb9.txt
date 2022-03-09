@@ -1,6 +1,0 @@
-week of 2/9/2022
-
-The concept of operation for the communication link is more or less done.
-I need to search for the correct python classes to import.
-By next week, my goal is to start coding with either the transmitter or the receiver.
-I won't be done with it but I'll be satisfied to know how to code with the transmitter and receiver.
