@@ -1,0 +1,12 @@
+﻿Power Module - Alex Soudah - 2/23/22
+
+- New board is fully assembled and two buck converted have been (and still are being) tested.
+
+- Using spare LTC3641 chip from old board and transferring to new board (on 5V Buck) and adding new LTC3641 chip (personally purchased) to new board (on 3.3V Buck). Will begin testing this configuration after learning of max current able to be directed to RST pin which was the initial cause of damage for the other two LTC3641 chips.
+
+- Reviewed data sheet for each chip and made sure of each of the electrical characteristics + electrical ratings on each pin so this mistake does not happen again.
+
+- Boost converter (28V) has not been tested yet but is also fully assembled and will be tested this week.
+
+- Goal is to implement with RF module this weekend (2/28)
+
