@@ -1,0 +1,85 @@
+Alex Soudah's Power Module Logs:
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+1/26/2022:
+Power Module:
+- Updated schematics and layout with addition of 14-pin connector
+- Solved all problems from last semester with regards to design not working as expected
+- Solved issues of some pins not being properly connected on schematic + resolved in layout as well 
+	(solved: EN/UVLO pin not connected, RST pin always connected)
+
+Current Progress:
+- Submitting layout for PCB fabrication by end of day today (1/26)
+- Ordering components that will be used for PCB assembly once board comes in by 1/27
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+02/02/2022:
+
+- Fixed all issues on DRC on layout (layout deisng competion confirmed with team, Dr. Lusher, and TA)
+	- Issues were with clearance (55 violations), short-circuit (2), and unrouted nets (3)
+- Will be sending boards out with parts order today
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+2/9/2022 - Alex Soudah (Power Electronics Subsystem):
+- sent in order for PCB and components two days ago
+- Grant helped with diagnosis of old board to see what was wrong with it
+- Looking into solar panel and battery charger that was purchased to plan out 
+	how to make all of those connections in case anything is needed
+- Helping Grant and Mingi with whatever they may need help with while I wait on my board to come in
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+2/16/2022:
+- Since last week, my board order came in (2 bucks and 1 boost) and I will
+	spend the rest of the week assembling the entire board
+- Will have assembly done by update presentation on Monday and will begin
+	testing this weekend
+- Once this is finished, I will begin thinking about connecting solar panel to
+	battery and then to board
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+2/23/2022:
+- New board is fully assembled and two buck converted have been (and still are being) tested.
+- Using spare LTC3641 chip from old board and transferring to new board (on 5V Buck) 
+and adding new LTC3641 chip (personally purchased) to new board (on 3.3V Buck). 
+Will begin testing this configuration after learning of max current able to be directed to RST pin 
+	which was the initial cause of damage for the other two LTC3641 chips.
+- Reviewed data sheet for each chip and made sure of each of the electrical characteristics + electrical ratings 
+	on each pin so this mistake does not happen again.
+- Boost converter (28V) has not been tested yet but is also fully assembled and will be tested this week.
+- Goal is to implement with RF module this weekend (2/28)
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+3/2/2022:
+- Boost Converter:
+	- Working exactly as expected, have tested it with Grant's RF module 
+		and it successfully provides the 28V as needed/expected. 
+	- Working on soldering on more permanent connectors to the board as the ones that were purchased do not fit the footprint on the board. 
+		However, will cut the connectors that were purchased and solder them on to the board to use as permanent connections. 
+	- Overall, boost converter is complete and ready for integration.
+- P5V and P3.3V Buck Converter:
+	- Looked at absolute maximum ratings on data sheet for LTC3641 chip and found that Vin2 pin can only handle a maximum of 6V and we're feeding it 12V. 
+		The solution was to bend the pin up off of the board and instead use the output from the P5V to power the Vin2 pad which would then power the P3.3V.
+	- Soldered on new chip and began testing yesterday (3/1). P3.3V output output 5V but the issue was found 
+		(resistor on the board was shifted when using the heat gun a bit before - resistor was fixed back into its intended position).
+-P5V Buck Converter:
+	- Soldering on new chip today and will begin testing on board today. Very similar lay out to the P3.3V board.
+	- Will do same thing with the new LTC3641 chip (bending Vin2 pin).
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+3/9/2022:
+- 5.5V/3.3V Buck successfully integrated with Grant's RF Module
+- Currently troubleshooting issue with 28V Boost integration with Grant/s RF Board
+	- 28V Boost works with load resistor but when connected with Grant's board, voltage drop to 20V (load too big, currently troubleshooting with Dr. Lusher).
+- 5V Buck chip (LTC3641) got damaged. Ordering new chip to integrate with Grant's board this week.
+Parts Order:
+- Fixed feedback resistors on 5.5V/3.3V Buck and will be ordering new SMD resistors for board (currently using through hole resistors acquired from FEDC). 
+- Ordering one LTC3641 chip to replace one on 5V Buck
+- Potentially ordering new capacitors for 28V Boost to solve voltage drop issue 
+	- waiting on Dr. Lusher's suggestions on how to proceed (already sent him PCB layout and schematic, awaiting response).
+/////////////////////////////////////////////////////////////////////////////////////////////
