@@ -1,0 +1,19 @@
+Grant Mays - RF Module Update - 3/9:
+
+
+3/9
+Spent the blitz troubleshooting the PSU with Alex, got P28V, P3V3 and P5V working. Succesfully integrated P3V3 and P5V, however P28V isn't able to supply load. Reached out to Dr. Lusher for assistance. 
+
+Mixer amp not working, the Vin pin is shorted to GND (desoldered from board and verified). Chip might be fried - will solder on spare, re-asses circuit for errors and retest.
+
+3/2
+Populated PA, mixer amp. PA does not seem to be working yet. Troubleshooting to no success. 
+
+Continued helping Alex troubleshoot PSU and began integrating with working parts of my board.
+
+Verified that Mingi's RPI can read output from RF mod.
+
+2/23
+Received Rev 2 board
+Populated Rev 2, tested sig gen, freq-volt, verified working.
+Shelved testing rest of board to help troubleshoot PSU.
