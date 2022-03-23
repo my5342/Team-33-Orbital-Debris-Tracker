@@ -83,3 +83,10 @@ Reached out to Dr. Lusher for assistance.
 Mixer amp not working, the Vin pin is shorted to GND (desoldered from board and verified). 
 Chip might be fried - will solder on spare, re-asses circuit for errors and retest.
 /////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+Grant Mays - RF Module Update - 3/23:
+
+Spent last two weeks troubleshooting PSU with Alex.
+RF PA still nonfunctional, unsure as to why. PA non functionality is critical problem.
+/////////////////////////////////////////////////////////////////////////////////////////////
