@@ -83,3 +83,12 @@ Parts Order:
 - Potentially ordering new capacitors for 28V Boost to solve voltage drop issue 
 	- waiting on Dr. Lusher's suggestions on how to proceed (already sent him PCB layout and schematic, awaiting response).
 /////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+Power Module Update 3/23 - Alex Soudah
+
+- P3V3 buck converter fully integrated with RF board
+- Still troubleshooting issues with PV5 buck and P28V boost not working with smaller loads (although they both work with a 2.2kOhm load resistor) even after increasing current limit on PSU significantly as per Dr. Lusher's suggestion.
+- Recalculated inductor values for P5V buck and will be ordering new power inductors (this is most likely the issue) and will also order a range of power inductors for the 28V boost to test.
+- Order for parts will go out today. Should have power module fully integrated with RPi and RF board by Monday, 3/28
+/////////////////////////////////////////////////////////////////////////////////////////////
