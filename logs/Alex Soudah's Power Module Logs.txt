@@ -92,3 +92,37 @@ Power Module Update 3/23 - Alex Soudah
 - Recalculated inductor values for P5V buck and will be ordering new power inductors (this is most likely the issue) and will also order a range of power inductors for the 28V boost to test.
 - Order for parts will go out today. Should have power module fully integrated with RPi and RF board by Monday, 3/28
 /////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+Power Module - Alex Soudah - 3/30:
+
+- Ordered new 5V Buck and 28V Boost to use because the ones on the PCB are not driving a low enough load for the RPi and RF module
+
+- 3.3V Buck however is still working and will be used for the RF module
+
+- Solar panel + solar charge controller + battery have all been connected (battery is charged). All of it is ready to be used for integrated system.
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+Alex Soudah - Power Module - April 6th:
+
+- 5V Buck and 28V Boost that were ordered for integration purposes are working, tuned to the correct voltage, and integrated with RF module and RPi
+
+- All power components are working properly - will attempt to troubleshoot 28V Boost that I designed (not the one that was purchased) in order to integrate with RF module but not necessary for full integration so will not spend too much time on it
+
+- Will continue ensuring proper/safe connections for everything connected to the power module 
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+Power Module - Alex Soudah Update 4/6 and 4/13:
+
+- All power module components now fully integrated with system. Aiding teammates with radar and processing module.
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+Power Module - Alex Soudah Update 4/6 and 4/13:
+
+- All power module components now fully integrated with system. Aiding teammates with radar and processing module.
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////////////////////
