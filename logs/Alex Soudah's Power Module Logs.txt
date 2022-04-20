@@ -92,3 +92,5 @@ Power Module Update 3/23 - Alex Soudah
 - Recalculated inductor values for P5V buck and will be ordering new power inductors (this is most likely the issue) and will also order a range of power inductors for the 28V boost to test.
 - Order for parts will go out today. Should have power module fully integrated with RPi and RF board by Monday, 3/28
 /////////////////////////////////////////////////////////////////////////////////////////////
+
+lmao bruh
