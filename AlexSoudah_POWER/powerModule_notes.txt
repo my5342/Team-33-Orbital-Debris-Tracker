@@ -1,0 +1,13 @@
+Items Backordered:
+- Thin Film Resistors - SMD 1/10W 10Kohm 0.5% 25ppm, RoHS Compliant
+- Fixed Inductors, RoHS Compliant (15 uH)
+
+- Connector Footprint:
+	- Each pin is 0.1 inch apart
+	- figure out hole diameter
+	- Research more to make schematic + footprint
+	- Add to layout
+
+Footprint Changes:
+	- 68 uF cap - make pads a bit larger
+	- 68 uH incuctor - make pad a big larger
